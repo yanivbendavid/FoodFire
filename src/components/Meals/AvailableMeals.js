@@ -31,7 +31,7 @@ const AvailableMeals = () => {
   }, []);
 
   if (isLoading) {
-    return <div class="lds-hourglass centerLoading"></div>;
+    return <div className="lds-hourglass centerLoading"></div>;
   }
 
   const mealsList = meals.map((meal) => (
